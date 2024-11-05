@@ -6,8 +6,8 @@ This project is designed to read data from an MPPT (Maximum Power Point Tracking
 
 ## Features
 
-- MPPT Communication:** Uses ESP32’s HardwareSerial to read data from the MPPT controller at 19200 baud rate.
-- WiFi Connectivity:** Connects to a WiFi network and starts a server on port 80.
+- MPPT Communication: Uses ESP32’s HardwareSerial to read data from the MPPT controller at 19200 baud rate.
+- WiFi Connectivity: Connects to a WiFi network and starts a server on port 80.
 
 - Data Parsing: Reads and parses data labels such as
    `V` (battery voltage),
@@ -32,10 +32,10 @@ This project is designed to read data from an MPPT (Maximum Power Point Tracking
 - Arduino IDE (with ESP32 board support)
 - ArduinoJson Library
 
-** Setup Instructions**
+## Setup Instructions
 
 1. Clone the Repository:
-   $bash :- git clone <(https://github.com/sagarmollah/SMART_SOLAR.git>
+   $bash : git clone https://github.com/sagarmollah/SMART_SOLAR.git
    
 
 2. Configure WiFi Credentials:
